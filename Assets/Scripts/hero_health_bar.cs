@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealtBar : MonoBehaviour
+public class hero_health_bar : MonoBehaviour
 {
 
    public Slider slider;
@@ -18,8 +18,6 @@ public class HealtBar : MonoBehaviour
     {
         slider.value = health;
     }
-
-
 
 }
  
